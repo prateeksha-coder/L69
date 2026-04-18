@@ -12,3 +12,15 @@ INSERT INTO Marks VALUES
 (3, 'Math', 70);
 
 SELECT * FROM Marks;
+
+SELECT MIN(marks)
+FROM Marks;
+
+SELECT MAX(marks)
+FROM Marks;
+
+SELECT AVG(marks)
+FROM Marks;
+
+SELECT SUM(marks)
+FROM Marks;
